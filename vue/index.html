@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+	<style>
+.row {
+	margin:5px 0px;
+}
+
+</style>
+
+<!-- 引入样式 -->
+<link href="https://unpkg.com/animate.css@3.5.1/animate.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-default/index.css">
+<!-- vue -->
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<!-- 引入组件库 -->
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+</head>
+<body>
+<div id="app">
+	<el-button @click="visible = true">按钮</el-button>
+    <el-dialog v-model="visible" title="Hello world">
+      <p>欢迎使用 Element</p>
+    </el-dialog>
+</div>
+<!-- script -->
+<script type="text/javascript">
+	new Vue({
+		el:"#app",
+		data:{
+			visible:false
+		}
+	});
+</script>
+</body>
+</html>
+
