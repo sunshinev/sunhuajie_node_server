@@ -191,7 +191,7 @@ the port is 8080
 ```
 #### 浏览器访问
 访问|实际
------+------
+--|---
 `http://localhost:8080/vue/` | 指向`index.html`
 `http://localhost:8080/vue` |  指向`index.html`
 `http://localhost:8080/` | `the path "./" is not exist`
